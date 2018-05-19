@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config ./internal/webpack/webpack.config.js --open",
     "test": "./node_modules/.bin/jest --config ./internal/test/jest.config.js --coverage --no-cache",
-    "test:watch": "./node_modules/.bin/jest --config ./internal/webpack/jest.config.js --coverage --watch"
+    "test:watch": "./node_modules/.bin/jest --config ./internal/test/jest.config.js --coverage --watch"
   },
   "pre-commits": [
     "test"
